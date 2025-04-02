@@ -3,7 +3,7 @@
   <channel>
     <title>My New Hugo Site</title>
     <link>https://example.org/index.html</link>
-    <description>This is your new home page.&#xA;テスト</description>
+    <description>トップページ</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Apr 2025 02:21:26 +0900</lastBuildDate>
