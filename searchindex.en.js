@@ -1,26 +1,26 @@
 var relearn_searchindex = [
   {
-    "breadcrumb": "My New Hugo Site",
-    "content": "This is a new chapter.",
-    "description": "This is a new chapter.",
-    "tags": [],
-    "title": "Log",
-    "uri": "/log/index.html"
-  },
-  {
-    "breadcrumb": "My New Hugo Site",
+    "breadcrumb": "English Site Title",
     "content": "",
     "description": "",
     "tags": [],
     "title": "Categories",
-    "uri": "/categories/index.html"
+    "uri": "/hugo-site-01/en/categories/index.html"
   },
   {
-    "breadcrumb": "My New Hugo Site",
+    "breadcrumb": "",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "English Site Title",
+    "uri": "/hugo-site-01/en/index.html"
+  },
+  {
+    "breadcrumb": "English Site Title",
     "content": "",
     "description": "",
     "tags": [],
     "title": "Tags",
-    "uri": "/tags/index.html"
+    "uri": "/hugo-site-01/en/tags/index.html"
   }
 ]
