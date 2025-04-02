@@ -1,4 +1,23 @@
 theme = 'hugo-theme-relearn'
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+
+# 基本設定
+baseURL = 'https://toshio-watanabe.github.io/hugo-site-01/'
+title = "技術ノート"
+defaultContentLanguage = "ja"  # デフォルト言語を日本語に設定
+defaultContentLanguageInSubdir = true  # 言語別サブディレクトリを有効化
+hasCJKLanguage = true  # 日本語などのCJK言語対応を有効化
+
+# 多言語設定
+[languages]
+
+[languages.ja]
+languageCode = "ja"  # 言語コード
+languageName = "日本語"  # 言語名
+title = "日本語のサイト名"  # 日本語サイトのタイトル
+weight = 0  # 表示優先度
+
+[languages.en]
+languageCode = "en"  # 言語コード
+languageName = "English"  # 言語名
+title = "English Site Title"  # 英語サイトのタイトル
+weight = 10  # 表示優先度
