@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>日本語のサイト名</title>
+    <title>技術ノート</title>
     <link>https://toshio-watanabe.github.io/hugo-site-01/ja/index.html</link>
     <description>トップページ</description>
     <generator>Hugo</generator>
