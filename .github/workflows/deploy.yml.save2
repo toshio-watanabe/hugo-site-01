@@ -1,0 +1,29 @@
+name: Deploy Hugo site to GitHub Pages
+on:
+  push:
+    branches:
+      - main  # mainブランチが更新されたときに動作
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # リポジトリをチェックアウト
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    # Hugoをセットアップ
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+      
+    # サイトをビルド
+    - name: Build site
+      run: hugo --minify
+    # デプロイ
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        
