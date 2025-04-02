@@ -13,11 +13,11 @@ hasCJKLanguage = true  # 日本語などのCJK言語対応を有効化
 [languages.ja]
 languageCode = "ja"  # 言語コード
 languageName = "日本語"  # 言語名
-title = "日本語のサイト名"  # 日本語サイトのタイトル
+title = "技術ノート"  # 日本語サイトのタイトル
 weight = 0  # 表示優先度
 
 [languages.en]
 languageCode = "en"  # 言語コード
 languageName = "English"  # 言語名
-title = "English Site Title"  # 英語サイトのタイトル
+title = "Tech Note"  # 英語サイトのタイトル
 weight = 10  # 表示優先度
